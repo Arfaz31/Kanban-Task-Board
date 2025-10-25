@@ -59,7 +59,7 @@ const Sidebar = ({ isOpen, onClose }: SidebarProps) => {
             <div className="w-8 h-8 bg-linear-to-br from-blue-500 to-indigo-600 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-sm">KB</span>
             </div>
-            <h2 className="text-xl font-bold bg-linear-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
+            <h2 className="text-xl font-bold bg-linear-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent whitespace-nowrap">
               Kanban Board
             </h2>
           </div>
